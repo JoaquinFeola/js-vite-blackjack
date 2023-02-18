@@ -1,0 +1,16 @@
+ademas de las exportaciones normales existe las default export, estan da una exportacion por defecto:
+
+export const a = "hola mundo";
+
+const baraja = () => {
+console.log('read')
+};
+
+export default baraja;
+
+
+se llama de la siguiente manera:
+import createNewDeck from "rutaDelArchivo";
+y si queres seguir agregando 'variables independientes' hacemos lo siguiente
+
+import createNewDeck, { funciones } from "rutaDelArchivo"

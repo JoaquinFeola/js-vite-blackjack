@@ -1,0 +1,4 @@
+import {  } from "";
+importamos algo {} que viene de ""
+un ejemplo importando todo el paquete de underscore
+import _ from "underscore";
