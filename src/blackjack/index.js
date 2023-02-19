@@ -1,4 +1,4 @@
-import _ from "underscore";
+import _ from  'underscore';
 import { pedirCarta, crearDeck, valorCarta, turnoComputadora, crearCarta } from "./usecases/index";
 
 /**
